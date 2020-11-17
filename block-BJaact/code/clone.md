@@ -18,27 +18,7 @@ console.log(person === person2); // output
 console.log(person.lastName === person2.lastName); // output
 ```
 
-2. Write the output with reason
-
-```js
-const person = {
-  firstName: 'John',
-  lastName: 'Doe',
-};
-
-let person2 = { ...person };
-
-person.firstName = 'Arya';
-
-console.log(person2.firstName); // output
-console.log(person.firstName); // output
-console.log(person.lastName); // output
-console.log(person == person2); // output
-console.log(person === person2); // output
-console.log(person.lastName === person2.lastName); // output
-```
-
-3. Write the output with reason:
+2. Write the output with reason:
 
 ```js
 let person = {
@@ -70,7 +50,7 @@ console.log(person.address.city); // output
 console.log(person.address.city == personTwo.address.city); // output
 ```
 
-4. Write the output with reason:
+3. Write the output with reason:
 
 ```js
 let person = {
@@ -102,7 +82,7 @@ console.log(person.address.city); // output
 console.log(person.address.city == personTwo.address.city); // output
 ```
 
-5. Clone the `blogs` variable into a new variable named `clonedBlogs`
+4. Clone the `blogs` variable into a new variable named `clonedBlogs`
 
 ```js
 let blogs = [
@@ -126,7 +106,7 @@ let blogs = [
 // Your code goes here
 ```
 
-6. Clone the `question` variable into a new variable named `questionClone`
+5. Clone the `question` variable into a new variable named `questionClone`
 
 ```js
 var questions = [
@@ -151,7 +131,7 @@ var questions = [
 // Your code goes here
 ```
 
-7. Clone the `allBlogs` variable into a new variable named `allBlogsClone`
+6. Clone the `allBlogs` variable into a new variable named `allBlogsClone`
 
 ```js
 var allBlogs = {
@@ -159,7 +139,7 @@ var allBlogs = {
     title: "Alamofire JSON Serialization",
     body: "All about serialization in Alamofire...",
     author: {
-        id, 1,
+        id: 1,
         fullName: "Jeff Potter",
         username: "jpotts18"
     },
@@ -178,7 +158,7 @@ var allBlogs = {
 // Your code goes here
 ```
 
-8. Clone the `person` variable into a new variable named `clonedPerson`
+7. Clone the `person` variable into a new variable named `clonedPerson`
 
 ```js
 let person = [
@@ -211,7 +191,7 @@ let person = [
 // Your code goes here
 ```
 
-9. Write a function named `cloneObject` that accepts an object and returns the clone of the object
+8. Write a function named `cloneObject` that accepts an object and returns the clone of the object
 
 ```js
 function cloneObject() {
