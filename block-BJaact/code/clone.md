@@ -18,6 +18,7 @@ console.log(person === person2); // output true
 console.log(person.lastName === person2.lastName); // output true
 ```
 
+<<<<<<< HEAD
 2. Write the output with reason
 
 ```js
@@ -39,6 +40,9 @@ console.log(person.lastName === person2.lastName); // output true
 ```
 
 3. Write the output with reason:
+=======
+2. Write the output with reason:
+>>>>>>> 5b9cab4818dce81da07ab47b04fb8b42611e91cb
 
 ```js
 let person = {
@@ -70,7 +74,7 @@ console.log(person.address.city); // output
 console.log(person.address.city == personTwo.address.city); // output
 ```
 
-4. Write the output with reason:
+3. Write the output with reason:
 
 ```js
 let person = {
@@ -102,7 +106,7 @@ console.log(person.address.city); // output 'Navada'
 console.log(person.address.city == personTwo.address.city); // output false
 ```
 
-5. Clone the `blogs` variable into a new variable named `clonedBlogs`
+4. Clone the `blogs` variable into a new variable named `clonedBlogs`
 
 ```js
 let blogs = [
@@ -127,7 +131,7 @@ let blogs = [
 let clonedBlogs = [...blogs];
 ```
 
-6. Clone the `question` variable into a new variable named `questionClone`
+5. Clone the `question` variable into a new variable named `questionClone`
 
 ```js
 var questions = [
@@ -153,7 +157,7 @@ var questions = [
 let questionClone = [...questions];
 ```
 
-7. Clone the `allBlogs` variable into a new variable named `allBlogsClone`
+6. Clone the `allBlogs` variable into a new variable named `allBlogsClone`
 
 ```js
 var allBlogs = {
@@ -161,7 +165,7 @@ var allBlogs = {
     title: "Alamofire JSON Serialization",
     body: "All about serialization in Alamofire...",
     author: {
-        id, 1,
+        id: 1,
         fullName: "Jeff Potter",
         username: "jpotts18"
     },
@@ -181,7 +185,7 @@ var allBlogs = {
 let allBlogs=[...allBlogsClone,author:[...author],comments:[...comments]];
 ```
 
-8. Clone the `person` variable into a new variable named `clonedPerson`
+7. Clone the `person` variable into a new variable named `clonedPerson`
 
 ```js
 let person = [
@@ -215,7 +219,7 @@ let person = [
 let clonedPerson = [...person];
 ```
 
-9. Write a function named `cloneObject` that accepts an object and returns the clone of the object
+8. Write a function named `cloneObject` that accepts an object and returns the clone of the object
 
 ```js
 function cloneObject(obj) {
