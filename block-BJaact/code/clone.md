@@ -18,7 +18,6 @@ console.log(person === person2); // output true
 console.log(person.lastName === person2.lastName); // output true
 ```
 
-<<<<<<< HEAD
 2. Write the output with reason
 
 ```js
@@ -40,9 +39,6 @@ console.log(person.lastName === person2.lastName); // output true
 ```
 
 3. Write the output with reason:
-=======
-2. Write the output with reason:
->>>>>>> 5b9cab4818dce81da07ab47b04fb8b42611e91cb
 
 ```js
 let person = {
@@ -182,7 +178,7 @@ var allBlogs = {
 }
 
 // Your code goes here
-let allBlogs=[...allBlogsClone,author:[...author],comments:[...comments]];
+let allBlogsClone=[...allBlogs,author:{...allBlogs[author]},comments:{...allBlogs[comments]}];
 ```
 
 7. Clone the `person` variable into a new variable named `clonedPerson`
