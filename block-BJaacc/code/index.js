@@ -26,17 +26,15 @@ students[42] = "The answer to the meaning of life";
 console.log(students[42]);
 
 // 10. Check the length of object named `students`.
-let length = 0;
-for (key in obj)
-{
-    length += 1;
+let size = 0;
+for ( i in students ) {
+    size += i
 }
-
-console.log(length);
+cconsole.log( size );
 
 
 // 11. Can you define a key of `let or var` in any object? Reason.
-Yes we can define as keys are by default strings
+"Yes we can define as keys are by default strings";
 
 // 12. Delete the `isAdult` property from the object `students`. Also, print the object before or after deleting the property
 delete students.isAdult;
