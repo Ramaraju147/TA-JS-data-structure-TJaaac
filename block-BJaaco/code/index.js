@@ -127,12 +127,14 @@ console.log( revert( ['Ryan', 'John', 'Bran'] ) ); //['Bran', 'John', 'Ryan']
 */
 
 function clear( arr ) {
+  let outputArray = [];
   for ( let i = 0; i <= arr.length - 1; i++ ) {
     if ( !!arr[i] == false ) {
-      delete arr[i];
+      continue;
     }
+    outputArray.push( arr[i] );
   }
-  return arr;
+  return outputArray;
 }
 
 
